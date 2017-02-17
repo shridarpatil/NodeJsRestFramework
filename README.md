@@ -42,7 +42,7 @@ Method:GET
  
 restId | rest_method | query_text | error_text | null_text
 --- | --- | --- | --- | --- 
-3 | testDelete | DELETE | delete from po where poid:poid | error_text | text_for_null_values
+3 | DELETE | testDelete | delete from po where poid:poid | error_text | text_for_null_values
 
 Url:/testDelete?poid=1
 
@@ -53,7 +53,7 @@ Method:GET
 
 restId | rest_method | query_text | error_text | null_text
 --- | --- | --- | --- | --- 
-4 | testUpdate | PUT | update po SET potext=;potext where poid=:poid | error_text | text_for_null_values
+4 | PUT | testUpdate | update po SET potext=;potext where poid=:poid | error_text | text_for_null_values
 
 Url:/testUpdate?poid=1
 
