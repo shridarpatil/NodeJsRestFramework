@@ -15,7 +15,7 @@ Follow the steps for creating rest api :
 
 restId | rest_method | query_text | error_text | null_text
 --- | --- | --- | --- | --- 
-1 | testPost | POST | po | error_text | text_for_null_values
+1 | POST | testPost | po | error_text | text_for_null_values
 
 
 Url:/testPost
@@ -31,7 +31,7 @@ Body:{"poid":1, "potext":"po text"}
 
 restId | rest_method | query_text | error_text | null_text
 --- | --- | --- | --- | --- 
-2 | testGet | GET | select * from po | error_text | text_for_null_values
+2 | GET | testGet | select * from po | error_text | text_for_null_values
 
 Url:/testGet
 
